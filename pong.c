@@ -4,8 +4,8 @@
 #define qtde_linhas 24
 
 typedef struct{
-    //Centro da objeto
-    int x, y, tamanho;
+    int x, y; //Centro da objeto
+    int tamanho;
     char caractere;
 }objeto;
 
