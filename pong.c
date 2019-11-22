@@ -1,3 +1,5 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "cert-msc32-c"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -204,3 +206,5 @@ int main() {
         printf("\033c");
     }
 }
+#pragma clang diagnostic pop
+#pragma clang diagnostic pop
