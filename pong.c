@@ -21,6 +21,7 @@ int baixo2 = 0; //false
 int velocidade_bolaX = 1;
 int velocidade_bolaY = 1;
 int pontuacao1, pontuacao2;
+
 typedef struct{
     int x, y; //Centro da objeto
     int tamanho;
@@ -95,10 +96,13 @@ void preencheMatrizBola(objeto bola){
 
 void preencher_matriz(objeto barra1, objeto barra2, objeto bola){
     limpaMatriz();
+    
     preencheMatrizCimaBarra(barra1);
-    preencheMatrizCimaBarra(barra2);
     preencheMatrizBaixoBarra(barra1);
+    
+    preencheMatrizCimaBarra(barra2);
     preencheMatrizBaixoBarra(barra2);
+    
     preencheMatrizBola(bola);
 }
 
