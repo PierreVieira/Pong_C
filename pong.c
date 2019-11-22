@@ -151,9 +151,9 @@ int movimentoBarra2(objeto barra){
 
 void colisao(objeto *bola, objeto *barra){
     if  ((bola->y <= barra->y + barra->tamanho/2) &&
-        (bola-> y >= barra->y - barra->tamanho/2) &&
-        (bola-> x == barra->x)){
-            velocidade_bolaX *= -1;
+         (bola-> y >= barra->y - barra->tamanho/2) &&
+         (bola-> x == barra->x)){
+        velocidade_bolaX *= -1;
     }
 }
 
@@ -201,8 +201,4 @@ int main() {
         usleep(TIME_SLEEP);
         printf("\033c");
     }
-    printf("Oi\n");
-    system("clear");
-    system("clear");
-    return 0;
 }
