@@ -1,11 +1,13 @@
 #pragma clang diagnostic push
+#pragma ide diagnostic ignored "cert-msc30-c"
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 #pragma ide diagnostic ignored "cert-msc32-c"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmissing-noreturn"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wmissing-noreturn"
 #define qtde_colunas 64
 #define qtde_linhas 48
 #define MOV_BAIXO 2
