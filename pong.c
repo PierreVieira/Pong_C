@@ -1,7 +1,11 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "cert-msc32-c"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmissing-noreturn"
 #define qtde_colunas 64
 #define qtde_linhas 48
 #define MOV_BAIXO 2
@@ -186,7 +190,7 @@ int main() {
     while(1){
         preencher_matriz(barra1, barra2, bola);
         printar_matriz();
-        printa_pontuacao(pontuacao1, pontuacao2);
+        printa_pontuacao();
         movimento_barra1 = movimentoBarra1(barra1);
         movimento_barra2 = movimentoBarra2(barra2);
         movimentaBarra(&barra1, movimento_barra1);
