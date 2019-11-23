@@ -1,6 +1,6 @@
 # Pong em C
 
-Programa da prova 3 (pong) na versão C.
+Programa da prova 3 (pong) da disciplina Laboratório de Arquitetura e Organização de Computadores do CEFET-MG (pong) em linguagem C.
 
 Saida do programa: https://youtu.be/rNHrVDi78z0
 <p align="center">
