@@ -1,6 +1,7 @@
 # Pong em C
 
 Programa da prova 3 (pong) na versão C.
+Saida do programa: https://youtu.be/rNHrVDi78z0
 <p align="center">
   <strong> Autores</strong>
 </p>
