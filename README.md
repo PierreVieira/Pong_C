@@ -2,6 +2,8 @@
 
 Programa da prova 3 (pong) da disciplina Laboratório de Arquitetura e Organização de Computadores do CEFET-MG (pong) em linguagem C.
 
+Relatório: https://drive.google.com/open?id=1nmpnVMcMEjJZXqD1iZi6HPRlujlDHfio
+
 Saida do programa: https://youtu.be/rNHrVDi78z0
 <p align="center">
   <strong> Autores</strong>
